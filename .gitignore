@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environment
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset files
+data/raw/*
+data/processed/*
+data/external/*
+
+# Model weights
+models/*.pt
+models/*.onnx
+*.engine
+
+# Training outputs
+runs/
+experiments/runs/
+
+# Results
+results/predictions/
+results/plots/
+
+# IDE
+.vscode/
+
+# Logs
+*.log
