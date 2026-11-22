@@ -1,0 +1,17 @@
+Category,Metric,Baseline,Adapted,Change,Change_pp
+Overall,Precision,0.594,0.611,0.017,1.7
+Overall,Recall,0.419,0.504,0.085,8.5
+Overall,mAP50,0.466,0.546,0.08,8.0
+Overall,mAP50-95,0.259,0.318,0.059,5.9
+Car,Precision,0.661,0.767,0.106,10.6
+Car,Recall,0.563,0.613,0.05,5.0
+Car,mAP50,0.613,0.706,0.093,9.3
+Car,mAP50-95,0.331,0.392,0.061,6.1
+Person,Precision,0.635,0.711,0.076,7.6
+Person,Recall,0.352,0.366,0.014,1.4
+Person,mAP50,0.425,0.486,0.061,6.1
+Person,mAP50-95,0.191,0.221,0.03,3.0
+Bus,Precision,0.485,0.354,-0.131,-13.1
+Bus,Recall,0.342,0.533,0.191,19.1
+Bus,mAP50,0.36,0.447,0.087,8.7
+Bus,mAP50-95,0.256,0.341,0.085,8.5

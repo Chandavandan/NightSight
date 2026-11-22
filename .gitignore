@@ -1,35 +1,38 @@
-# Python
-__pycache__/
-*.py[cod]
-*.egg-info/
+# Ignore everything at the project root
+/*
 
-# Virtual environment
-.venv/
-venv/
+# Keep documentation
+!/.gitignore
+!/README.md
 
-# Jupyter
-.ipynb_checkpoints/
+# Keep only the selected notebooks
+!/notebooks/
+/notebooks/*
+!notebooks/01_dataset_exploration.ipynb
+!notebooks/02_dataset_selection.ipynb
 
-# Dataset files
-data/raw/*
-data/processed/*
-data/external/*
+# Results: allow only selected folders
+!/results/
+/results/*
 
-# Model weights
-models/*.pt
-models/*.onnx
-*.engine
+# Metrics
+!/results/metrics/
+/results/metrics/*
+!results/metrics/held_out_evaluation_comparison.csv
 
-# Training outputs
-runs/
-experiments/runs/
+# Plots
+!/results/plots/
+/results/plots/*
+!results/plots/overall_metric_comparison.png
 
-# Results
-results/predictions/
-results/plots/
+# Predictions
+!/results/predictions/
+/results/predictions/*
+!results/predictions/Figure_1_Nighttime_Input.png
+!results/predictions/Figure_2_Baseline_vs_Adapted.png
 
-# IDE
-.vscode/
-
-# Logs
-*.log
+# Final dashboard
+!/results/final_comparison/
+/results/final_comparison/*
+!results/final_comparison/NightSight_Research_Dashboard.pdf
+!results/final_comparison/NightSight_Research_Dashboard.png
